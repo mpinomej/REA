@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Método alemán | Decisiones financieras </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Miguel Pino" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+ extensions: ["tex2jax.js"],
+ jax: ["input/TeX", "output/HTML-CSS"],
+ tex2jax: {
+ inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+ processEscapes: true
+ },
+ "HTML-CSS": { fonts: ["TeX"] },
+ TeX: { equationNumbers: { autoNumber: "AMS" } },
+ loader: {load: ['[tex]/cancel']},
+ tex: {packages: {'[+]': ['cancel']}}
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default"></script>
+
+
+<style>
+.facilitada {
+  font-size: 14pt;
+  line-height: 1.5;
+}
+.facilitada ul {
+   line-height: 2.5;
+ 
+}
+ 
+.facilitada ol {
+   line-height: 2.5;
+ 
+}
+ 
+</style></head>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Decisiones financieras</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Decisiones financieras</a></li>
+   <li><a href="merece_la_pena_ahorrar.html" class="no-ch">¿Merece la pena ahorrar?</a></li>
+   <li><a href="el_valor_del_dinero_en_el_tiempo.html" class="no-ch">El valor del dinero en el tiempo</a></li>
+   <li><a href="inters_simple_vs_compuesto.html" class="daddy">Interés simple vs compuesto</a>
+   <ul class="other-section">
+      <li><a href="inters_simple.html" class="no-ch">Interés simple</a></li>
+      <li><a href="inters_compuesto.html" class="no-ch">Interés compuesto</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="analizando_un_prstamo_bancario.html" class="current-page-parent daddy">Analizando un préstamo bancario</a>
+   <ul>
+      <li><a href="mtodo_francs.html" class="no-ch">Método francés</a></li>
+      <li id="active"><a href="mtodo_alemn.html" class="active no-ch">Método alemán</a></li>
+   </ul>
+   </li>
+   <li><a href="diseo_de_un_plan_de_ahorro.html" class="no-ch">Diseño de un plan de ahorro</a></li>
+   <li><a href="autora_y_licencia.html" class="no-ch">Autoría y Licencia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="mtodo_francs.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="diseo_de_un_plan_de_ahorro.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Método alemán</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Amortización constante</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_1129_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>El método alemán es un sistema de devolución de préstamos en el que la amortización del capital es constante en todas las cuotas. Esto significa que en cada mensualidad siempre se devuelve la misma cantidad del capital prestado, mientras que los intereses van disminuyendo con el tiempo.</p>
+<div class="exe-fx exe-paginated">
+<h2>Cada cuota del préstamo tiene dos partes</h2>
+<p>Amortización del capital: siempre igual en cada cuota.<br>Intereses: se calculan sobre el capital que queda por pagar, por lo que disminuyen cada mes.<br>Por lo tanto, la cuota total (capital + intereses) inicialmente es alto pero va disminuyendo progresivamente.</p>
+<h2>Cálculo de la cuota&nbsp;</h2>
+<p>Supongamos que:</p>
+<p>\(P\) es el capital prestado<br>\(n\) el número de cuotas<br>\(i\) es tipo de interés por periodo<br>La amortización fija de capital para cada periodo será<br>&nbsp;\(A = \frac{P}{n}\)</p>
+<p>El interés del periodo k:<br>\(I_k = (P - A \cdot (k-1)) \cdot i \) que se calcula sobre el capital pendiente de amortización</p>
+<p>Cuota total del periodo k:<br>\(C_k = A + I_k\) ​La cuota va bajando porque cada vez se pagan intereses sobre una cantidad menor.</p>
+<h2>Las características principales del método alemán son:</h2>
+<p>Amortización del capital constante.<br>Cuotas decrecientes, más altas al principio y más bajas al final.<br>Intereses cada vez menores, porque baja el capital pendiente.<br>El cliente paga menos intereses totales que en el método francés.<br>Las primeras cuotas son más altas esto puede dificultar su pago al inicio.</p>
+</div></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id24">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tabla de amortización</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta24_119_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Para realizar la tabla de amortizaciones por el método alemán lo más sencillo es recurrir a una hoja de cálculo. En la siguiente hoja dispones de una</p>
+<p><a href="Metodo_aleman_no_logo.ods">Tabla método alemán</a></p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 731px;"><img src="img0.1.png" alt="Table método alemán" width="731" height="525">
+<figcaption class="figcaption"><span class="author">Elaboración propia</span>. <span class="title"><em>Tabla método alemán</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p><br><br></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id25">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Comparación de préstamos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta25_120_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Supongamos que solicitas un préstamo de 50.000 € a pagar en 10 años con cuotas mensuales y un tipo de interés del 4%.&nbsp;</p>
+<p>Con las fórmulas facilitadas en los apartados anteriores calcula las dos primeras cuotas por el método francés y alemán.&nbsp;</p>
+<p>Con ayuda de las tablas de amortización halla los cuadros de amortización por cada método.</p>
+<p><strong>Interpretación de resultados</strong><br>¿Cuál de los dos métodos presenta una cuota inicial más alta?<br>¿Y cuál presenta una cuota final más baja? Explica por qué.<br>¿En qué método disminuye más rápido el capital pendiente? Razona tu respuesta.</p>
+<p><strong>Coste del préstamo</strong><br>Calcula el total pagado en cada método (suma de todas las cuotas).<br>Calcula los intereses totales pagados en cada caso.<br>¿Qué método resulta más económico para el cliente? ¿Por qué?<br>Explica por qué en el método francés se pagan más intereses al principio.</p>
+<p><strong>Análisis y reflexión</strong><br>Si una persona tiene ingresos estables pero no muy altos, ¿qué método crees que le conviene? Justifica.<br>Si otra persona quiere pagar menos intereses totales y puede asumir cuotas altas al inicio, ¿qué método elegiría?<br>¿Cuál crees que es el método más utilizado por los bancos en hipotecas? ¿Por qué?<br>Describe una situación real donde sería razonable usar el método alemán.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="mtodo_francs.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="diseo_de_un_plan_de_ahorro.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
